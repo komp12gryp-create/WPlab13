@@ -2,11 +2,167 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Лабораторна 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoClub — мультфільми та мультсеріали</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <h1>Перевірка Gulp</h1>
-    <script src="js/main.min.js"></script>
+    <div class="site">
+        <header class="header" id="top">
+            <a class="logo" href="#top" aria-label="KinoClub — на головну">
+                <span class="logo-mark">▣</span>
+                <span><strong>KINO</strong><span>CLUB</span></span>
+            </a>
+            <nav class="navigation" aria-label="Головне меню">
+                <ul>
+                    <li><a href="#cartoons">ФІЛЬМИ</a></li>
+                    <li><a href="#series">СЕРІАЛИ</a></li>
+                    <li><a href="#cartoons">МУЛЬТФІЛЬМИ</a></li>
+                    <li><a href="#series">ПІДБІРКИ</a></li>
+                    <li><a href="#news">СПІЛЬНОТА</a></li>
+                    <li><a href="#news">АНОНСИ</a></li>
+                    <li><a href="#cartoons">2023</a></li>
+                    <li><a href="#cartoons">ТОП 100</a></li>
+                </ul>
+            </nav>
+            <a class="header-link" href="#news">Новини</a>
+        </header>
+
+        <main>
+            <section class="catalog" id="cartoons">
+                <div class="section-title">
+                    <h2>Найкращі мультфільми</h2>
+                    <a href="#cartoons">Всі мультфільми <span aria-hidden="true">❯</span></a>
+                </div>
+                <div class="movie-grid">
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=My%20Fairy%20Troublemaker" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.impawards.com/intl/germany/2022/posters/my_fairy_troublemaker_xlg.jpg" alt="Постер мультфільму Моя незграбна фея">
+                            <span class="movie-name">Моя незграбна фея</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/movie/778810-fireheart" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.tmdb.org/t/p/w500/HDhCXuCylctpu2dvHmRCakY7pM.jpg" alt="Постер мультфільму Полум'яне серце">
+                            <span class="movie-name">Полум'яне серце</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/movie/718789-lightyear" target="_blank" rel="noopener noreferrer">
+                            <img src="https://elfinalde.s3-accelerate.amazonaws.com/2023/08/bPIm1SXYp5RQ3c4wP91JQRewIb8-717x1024.jpg.webp" alt="Постер мультфільму Базз Рятівник">
+                            <span class="movie-name">Базз Рятівник</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Paws%20of%20Fury" target="_blank" rel="noopener noreferrer">
+                            <img src="https://pics.filmaffinity.com/Paws_of_Fury_The_Legend_of_Hank-303030305-large.jpg" alt="Постер мультфільму Самурайський пес">
+                            <span class="movie-name">Самурайський пес</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/movie/315162-puss-in-boots-the-last-wish" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.mnctrijaya.com/uploads/news/IMG-20221227-WA0001.jpg" alt="Постер мультфільму Кіт у чоботях 2">
+                            <span class="movie-name">Кіт у чоботях 2: Останнє бажання</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Strange%20World" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.laughingplace.com/uploads/2022/12/disney-animation-shares-new-poster-art-for-upcoming-strange-world-disney-release.jpeg" alt="Постер мультфільму Незвичайний світ">
+                            <span class="movie-name">Незвичайний світ</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Tad%20the%20Lost%20Explorer" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.impawards.com/intl/spain/2022/posters/tad_the_lost_explorer_and_the_emerald_tablet_xxlg.jpg" alt="Постер мультфільму Тед-мандрівник">
+                            <span class="movie-name">Тед-мандрівник: Закляття мумії</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Hotel%20Transylvania%20Transformania" target="_blank" rel="noopener noreferrer">
+                            <img src="https://cdns.klimg.com/resized/670x/p/movie/poster/hotel-transylvania-4-transformania-poster-e02efa2.jpg" alt="Постер мультфільму Монстри на канікулах 4">
+                            <span class="movie-name">Монстри на канікулах 4</span>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="catalog" id="series">
+                <div class="section-title">
+                    <h2>Мультсеріали</h2>
+                    <a href="#series">Всі мультсеріали <span aria-hidden="true">❯</span></a>
+                </div>
+                <div class="movie-grid">
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=The%20Owl%20House" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://image.tmdb.org/t/p/w500/cZLxKTslrf9gzRomVy8BhaYjg7n.jpg" alt="Постер мультсеріалу Совиний Дім"><span class="episode">3 сезон / 3 серія</span></div>
+                            <span class="movie-name">Совиний Дім</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Murder%20Drones" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://i.ebayimg.com/images/g/Eb4AAeSwx1FpWQb1/s-l500.jpg" alt="Постер мультсеріалу Дрони вбивці"><span class="episode">1 сезон / 8 серій</span></div>
+                            <span class="movie-name">Дрони вбивці</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/tv/38693-ninjago-masters-of-spinjitzu" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://image.tmdb.org/t/p/w500/9IxqPQwrhGm6z4o0c1tMjypLiE1.jpg" alt="Постер мультсеріалу LEGO Ніндзяго"><span class="episode">15 сезонів</span></div>
+                            <span class="movie-name">LEGO Ніндзяго: Майстри Спінджитсу</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=My%20Little%20Pony%20Make%20Your%20Mark" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://m.media-amazon.com/images/M/MV5BYjBhNGQ0OTQtMmI3Mi00NWFjLTgwN2ItMjdjZGFjZWU4Nzk3XkEyXkFqcGc%40._V1_.jpg" alt="Постер мультсеріалу My Little Pony"><span class="episode">1–3 сезон</span></div>
+                            <span class="movie-name">My Little Pony: Залиш свій слід</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/tv/2190-south-park" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://image.tmdb.org/t/p/w500/ka1ilKJLUkNvirukSAASEcufNFK.jpg" alt="Постер мультсеріалу Південний Парк"><span class="episode">26 сезонів</span></div>
+                            <span class="movie-name">Південний Парк</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Family%20Guy" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://static.wikia.nocookie.net/listofdeaths/images/c/c2/Family_Guy_poster.jpg/revision/latest?cb=20210225010246" alt="Постер мультсеріалу Сім'янин"><span class="episode">21 сезон</span></div>
+                            <span class="movie-name">Сім'янин / Сім'я Гріффінів</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Princess%20Power" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://images.squarespace-cdn.com/content/v1/53f0dc19e4b042bb7cb6e377/bd5646a8-b3c3-4850-b97f-936730bac325/PP1.jpg" alt="Постер мультсеріалу Сила принцес"><span class="episode">1 сезон</span></div>
+                            <span class="movie-name">Сила принцес</span>
+                        </a>
+                    </article>
+                    <article class="movie">
+                        <a href="https://www.themoviedb.org/search?query=Dragons%20The%20Nine%20Realms" target="_blank" rel="noopener noreferrer">
+                            <div class="poster"><img src="https://static.tvmaze.com/uploads/images/original_untouched/491/1229572.jpg" alt="Постер мультсеріалу Дракони: Дев'ять світів"><span class="episode">5 сезонів</span></div>
+                            <span class="movie-name">Дракони: Дев'ять світів</span>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <div class="bottom-grid" id="news">
+                <section class="bottom-block">
+                    <div class="section-title">
+                        <h2>Новини</h2>
+                        <a href="https://www.themoviedb.org/movie" target="_blank" rel="noopener noreferrer">Всі новини <span aria-hidden="true">❯</span></a>
+                    </div>
+                    <div class="bottom-content">
+                        <a href="https://www.themoviedb.org/movie/315162-puss-in-boots-the-last-wish" target="_blank" rel="noopener noreferrer">«Кіт у чоботях 2» — нові пригоди улюбленого героя</a>
+                        <a href="https://www.themoviedb.org/movie/718789-lightyear" target="_blank" rel="noopener noreferrer">«Базз Рятівник» — космічна історія Pixar</a>
+                    </div>
+                </section>
+                <section class="bottom-block">
+                    <div class="section-title"><h2>Кращі коментарі</h2></div>
+                    <div class="bottom-content">
+                        <a href="#cartoons">Який мультфільм вам найбільше сподобався?</a>
+                        <a href="#series">Обговорюємо найкращі мультсеріали</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
